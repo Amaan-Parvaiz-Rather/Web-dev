@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Header section having title and social media icons -->
+        <header>
+            <h1>GET IN TOUCH</h1>
+            <div class="socail-media-icon">
+            <hr></hr>
+            <ul>
+                <li><a href="https://github.com/Amaan-Parvaiz-Rather/Web-dev"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://x.com/DGe003"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/amaan-rather-6aba39290/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/am_aa_n.str3ange/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <hr></hr>
+            </div>
+        </header>
+
+        <!-- location , phone no. , mail sectioin -->
+         <div class="reach-out">
+            <div class="icons">
+                <ul>
+                    <li><img src="icon/icons8-location-50.png" alt="location"><p>Address: 198 West 21th <br>Street,Suite 721 New York <br>NY 10016</p></li>
+                    <li><img src="icon/icons8-phone-50.png" alt="phone"><p>Phone: + 1235 2355 98</p></li>
+                    <li><img src="icon/icons8-email-50.png" alt="email"><p>Email: abc123@gmail.com</p></li>
+                </ul>
+            </div>
+         </div>
+
+         <!-- Messsage Me form -->
+          <div class="main-form">
+            <h2>Message me</h2>
+            <form action="message-me">
+                <input type="text"  id="full_name" placeholder="Full Name" required>
+                <input type="email"  id="email"  placeholder="Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="text" id="Message" placeholder="Message">
+                <input type="button" value="Send Message" >
+            </form>
+          </div>
+    </div>
 </body>
 </html>

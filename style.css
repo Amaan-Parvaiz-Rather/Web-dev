@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Krona+One&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 70%;
+    height:15%;
+    background-color: #9FC9BF;
+    display: flex;
+    justify-content: space-between;
+    border-top: #00171F solid 1px;
+    border-left: #00171F solid 1px;
+    border-right: #00171F solid 1px;
+}
+h1{
+    margin: 0;
+    padding: 40px 40px;
+    font-family:"Krona One", sans-serif;
+    font-weight:300;
+    font-size: 2em;
+}
+.socail-media-icon{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.socail-media-icon > ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0%;
+        margin: 0%;
+        list-style-type: none;
+}
+.socail-media-icon > ul >li>a{
+    font-size: 1.5rem;
+    color:black;
+    padding: 0 10px;
+}
+.socail-media-icon > hr {
+    width: 50px;
+    margin: 0 20px;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.reach-out{
+    width: 70%;
+    height: 25%;
+    background-color: #9FC9BF;
+    padding-top: 10px;
+    border-left: #00171F solid 1px ;
+    border-right: #00171F solid 1px;
+    border-bottom: #00171F solid 1px;
+}
+
+.icons >ul{
+    display: flex;
+    justify-content:space-around;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+.icons >ul >li>img{
+    padding-left: 50px;
+}
+
+
+.main-form {
+    width: 70%;
+    height: auto;
+    background-color: #9FC9BF;
+    border-left: #00171F solid 1px ;
+    border-right: #00171F solid 1px;
+    border-bottom: #00171F solid 1px;
+}
+h2{
+    margin: 0;
+    padding: 30px 40px;
+    font-family:"Krona One", sans-serif;
+    font-weight:300;
+    font-size: 1.5em;
+}
+form > input{
+margin: 0px 50px 0px 65px;
+}
+
+form > #full_name {
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #DFFAF4;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 100;
+}
+input[type="email"]{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #DFFAF4;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 100;
+}
+form > #subject{
+    width: 75%;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #DFFAF4;
+    margin-top: 30px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 50;
+}
+form > #Message {
+    width: 75%;
+    height: 5.5em;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #DFFAF4;
+    margin-top: 30px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 50;
+}
+input[type="button"]{
+    width: 25%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color:#00171F;
+    color: #9FC9BF;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family:"Krona One", sans-serif;
+    font-size: 1.1em;
+}
