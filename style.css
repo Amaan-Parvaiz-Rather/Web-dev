@@ -168,22 +168,33 @@ input[type="submit"]:hover{
 
 .aside-section{
     min-width: 20%;
-    height: 100dvh;
+    min-height: 100vh;
+    max-height: 100%;
     background-color: #00171F;
     color: #9FC9BF;
     margin: 0%;
     overflow: hidden;
 }
 
-.title{
+.title-text > h3{
   font-family: "Black Ops One", system-ui;
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
-  font-size: 6em;
-  padding: 10px 0px;
-  writing-mode: vertical-rl;
+  font-size: 5em;
+  writing-mode: vertical-lr;
+  margin: 0px 20px;
+  padding: 47px 20px;
   animation: 4s slide infinite linear;
+  display: flex;
+  justify-content: center;
 }
+.title-text{
+   display: inline-block;
+   width: fit-content;
+   height:auto;
+   position: fixed;
+}
+
 
 @keyframes slide {
     from{
@@ -195,9 +206,13 @@ input[type="submit"]:hover{
     
 }
 
-
-
 /* aside secetion */
+
+/* Responsive cahnges */
+
+me
+
+/* Responsive cahnges */
 
 
 
