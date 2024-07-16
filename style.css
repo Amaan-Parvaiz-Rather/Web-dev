@@ -278,7 +278,45 @@ input[type="submit"]:hover{
     .header2 >ul >li>p{
         font-size:15px;
     } 
+    form{
+        padding: 10px 0px 0px 10px;
+    }
+    input[type="submit"]{
+        font-size: 10px;
+    }
+    h2{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1em;
+        padding-left: 20px;
+      }
 }
+@media screen and (max-width:500px){
+    h1{
+        font-size:1em;
+    }
+    .header2 >ul >li>i{
+        font-size: 1.2em;
+    }
+    .header2 >ul >li>p{
+        font-size:10px;
+    } 
+    form{
+        padding: 0px 0px 0px 10px;
+    }
+}
+@media screen and (max-width:400px){
+    .socail-icons > ul >li >a{
+        font-size: 1em;
+    }
+    h1{
+        font-size:.8em;
+    }
+    input[type="submit"]{
+        font-size: 8px;
+    }
+}
+
 /* Responsive cahnges */
 
 
