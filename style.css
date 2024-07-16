@@ -6,19 +6,20 @@ body{
     padding: 0px;
     margin: 0px;
     display: flex;
+    width: 100%;
+    max-height:auto;
 }
 .main-section{
     background-color: #9FC9BF;
     min-width: 80%;
-    max-height:auto;
-    min-height: 100vh;
+    height: 100%;
 }
 
 /* Header Section start */
 header{
     min-width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 15%;
     border-top:  1px solid #00171F;
     border-right:  1px solid #00171F;
     border-left:  1px solid #00171F;
@@ -28,7 +29,7 @@ h1{
   font-weight: 500;
   font-style: normal;
   padding: 0px 20px;
-
+  font-size: 2em;
 }
 
 .logos {
@@ -74,12 +75,11 @@ h1{
 .header2{
     min-width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 20%;
     border-bottom:  1px solid #00171F;
     border-right:  1px solid #00171F;
     border-left:  1px solid #00171F;
-    margin: 10px 0px;
-    padding: 20px 0px;
+    padding:25px 0px;
 }
 
 .header2 > ul{
@@ -100,16 +100,104 @@ h1{
 
 /* Header2 Section end */
 
+/* Main Form Section  start*/
 
+.main-form{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-right:  1px solid #00171F;
+    border-left:  1px solid #00171F;
+    padding: 10px 0px 20px 0px;
+}
+h2{
+  font-family: "Krona One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3em;
+  padding-left: 30px;
+}
 
+form{
+    min-width: 90%;
+    max-width: 90%;
+    height: auto;
+    padding: 0px 0px 0px 40px;
+    align-content: center;
+}
+
+input, textarea {
+    background-color: #DFFAF4;
+    border: 1px solid #00171F;
+    border-radius: 15px;
+    color: #00171F;
+    margin: 15px 0 0 0;
+    width: 98%;
+    min-height: 3em;
+    font-family: "Krona One", sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    
+  }
+
+#Full-name , #email{
+    width: 40%;
+}
+
+.flex{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="submit"]{
+    width:30%;
+    padding-left: 0px;
+    background-color: #00171F;
+    color: #9FC9BF;
+    cursor: pointer;
+    transition: 1s;
+}
+input[type="submit"]:hover{
+    font-size: 18px;
+}
+/* Main Form Section  end*/
+
+/* aside secetion */
 
 .aside-section{
     min-width: 20%;
+    height: 100dvh;
     background-color: #00171F;
     color: #9FC9BF;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.title{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 6em;
+  padding: 10px 0px;
+  writing-mode: vertical-rl;
+  animation: 4s slide infinite linear;
+}
+
+@keyframes slide {
+    from{
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+    
 }
 
 
+
+/* aside secetion */
 
 
 
