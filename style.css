@@ -3,183 +3,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 body{
-    padding: 0%;
-    margin: 0%;
-}
-header{
-    width: 100%;
-    height:15%;
-    background-color: #9FC9BF;
+    padding: 0px;
+    margin: 0px;
     display: flex;
-    justify-content: space-between;
-    border-top: #00171F solid 1px;
-    border-left: #00171F solid 1px;
-    border-right: #00171F solid 1px;
+}
+.main-section{
+    background-color: #9FC9BF;
+    min-width: 80%;
+    max-height:auto;
+    min-height: 100vh;
+}
+
+/* Header Section start */
+header{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-top:  1px solid #00171F;
+    border-right:  1px solid #00171F;
+    border-left:  1px solid #00171F;
 }
 h1{
-    margin: 0;
-    padding: 35px 40px;
-    font-family:"Krona One", sans-serif;
-    font-weight:300;
-    font-size: 2em;
+  font-family: "Krona One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0px 20px;
+
 }
-.socail-media-icon{
+
+.logos {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+ 
+
+.socail-icons{
+    display: flex;
     align-items: center;
 }
-.socail-media-icon > ul {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 0%;
-        margin: 0%;
-        list-style-type: none;
-}
-.socail-media-icon > ul >li>a{
-    font-size: 1.5rem;
-    color:black;
-    padding: 0 10px;
-}
-.socail-media-icon > hr {
-    width: 50px;
-    margin: 0 20px;
-    height: 1px;
-    background-color: black;
-    border: none;
-}
 
-.reach-out{
-    width: 100%;
-    height: 25%;
-    background-color: #9FC9BF;
-    padding-top: 10px;
-    border-left: #00171F solid 1px ;
-    border-right: #00171F solid 1px;
-    border-bottom: #00171F solid 1px;
-}
-
-.icons >ul{
-    display: flex;
-    justify-content:space-around;
-    padding: 0%;
-    margin: 0%;
+.socail-icons > ul{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
     list-style-type: none;
-}
-.icons >ul >li>img{
-    padding-left: 50px;
-}
-
-
-.main-form {
-    width: 100%;
-    height: auto;
-    background-color: #9FC9BF;
-    border-left: #00171F solid 1px ;
-    border-right: #00171F solid 1px;
-    border-bottom: #00171F solid 1px;
-}
-h2{
-    margin: 0;
-    padding: 30px 40px;
-    font-family:"Krona One", sans-serif;
-    font-weight:300;
-    font-size: 1.5em;
-}
-form > input{
-margin: 0px 50px 0px 65px;
-width: 100px;
-height: auto;
-}
-
-form > #full_name {
-    width: 31%;
-    font-size: 1.5em;
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: #DFFAF4;
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 100;
-}
-input[type="email"]{
-    width: 31%;
-    font-size: 1.5em;
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: #DFFAF4;
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 100;
-}
-form > #subject{
-    width: 75%;
-    font-size: 1.5em;
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: #DFFAF4;
-    margin-top: 30px;
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 50;
-}
-form > #Message {
-    width: 75%;
-    height: 5.5em;
-    font-size: 1.5em;
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: #DFFAF4;
-    margin-top: 30px;
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 50;
-}
-input[type="button"]{
-    width: 25%;
-    padding: 10px 15px;
-    border-radius: 15px;
-    border: none;
-    background-color:#00171F;
-    color: #9FC9BF;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    font-family:"Krona One", sans-serif;
-    font-size: 1.1em;
-}
-
-.sidebar-section{
     display: flex;
+    justify-content: space-around;    
 }
-.side-bar{
-    width: 20%;
-    height: 100vh;
+
+.socail-icons > hr{
+    width: 60px;
+    height: 1px;
+    border: none;
+    background-color: #00171F;
+    margin: 0px 5px;
+}
+
+.socail-icons > ul >li >a{
+    padding: 0px 10px;
+    font-size: 2em;
+    color: #00171F;
+}
+
+/* Header Section end */
+
+/* Header2 Section start*/
+
+.header2{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-bottom:  1px solid #00171F;
+    border-right:  1px solid #00171F;
+    border-left:  1px solid #00171F;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+
+.header2 > ul{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header2 >ul >li>i{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+
+/* Header2 Section end */
+
+
+
+
+.aside-section{
+    min-width: 20%;
     background-color: #00171F;
     color: #9FC9BF;
-    overflow: hidden;
-    
-}
-.main-section {
-    width: 80%;
-    height: 100%;
-}
-.contact-us{
-    font-family: "Black Ops One", system-ui;
-    font-size: 80px;
-    font-weight: 800;
-    font-style:normal;
-    writing-mode: vertical-lr;
-    margin-left: 40px;
-    animation: 6s slide infinite linear;
-}
-@keyframes slide {
-    form{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(-100%);
-    }
-    
 }
 
 
