@@ -12,6 +12,7 @@ body{
 .main-section{
     background-color: #9FC9BF;
     min-width: 80%;
+    max-width: 100%;
     height: 100%;
 }
 
@@ -208,10 +209,76 @@ input[type="submit"]:hover{
 
 /* aside secetion */
 
+
+/*  */
+.title-section-for-rwd{
+    min-width: 100%;
+    height:15%;
+    background-color: #00171F;
+    color: #9FC9BF;
+    display: none;
+}
+.title-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.title-text2 > h3{
+    padding: 0px 30px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    animation: 4s slide2 infinite linear;
+}
+
+@keyframes slide2 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+/*  */
+
+
+
 /* Responsive cahnges */
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 1.5em;
+    }
+}
 
-me
+@media screen and (max-width: 800px){
 
+    .aside-section{
+        display: none;
+    }
+    .title-section-for-rwd{
+        display: block;
+    }
+
+}
+@media screen and (max-width: 650px){
+    .socail-icons > ul >li >a{
+        font-size: 1.5em;
+    }
+    
+    .socail-icons >hr{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .header2 >ul >li>p{
+        font-size:15px;
+    } 
+}
 /* Responsive cahnges */
 
 
