@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 body{
     padding: 0%;
     margin: 0%;
 }
 header{
-    width: 70%;
+    width: 100%;
     height:15%;
     background-color: #9FC9BF;
     display: flex;
@@ -17,7 +18,7 @@ header{
 }
 h1{
     margin: 0;
-    padding: 40px 40px;
+    padding: 35px 40px;
     font-family:"Krona One", sans-serif;
     font-weight:300;
     font-size: 2em;
@@ -48,7 +49,7 @@ h1{
 }
 
 .reach-out{
-    width: 70%;
+    width: 100%;
     height: 25%;
     background-color: #9FC9BF;
     padding-top: 10px;
@@ -70,7 +71,7 @@ h1{
 
 
 .main-form {
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: #9FC9BF;
     border-left: #00171F solid 1px ;
@@ -86,10 +87,12 @@ h2{
 }
 form > input{
 margin: 0px 50px 0px 65px;
+width: 100px;
+height: auto;
 }
 
 form > #full_name {
-    width: 30%;
+    width: 31%;
     font-size: 1.5em;
     padding: 5px 15px;
     border-radius: 15px;
@@ -99,7 +102,7 @@ form > #full_name {
     font-weight: 100;
 }
 input[type="email"]{
-    width: 30%;
+    width: 31%;
     font-size: 1.5em;
     padding: 5px 15px;
     border-radius: 15px;
@@ -144,3 +147,42 @@ input[type="button"]{
     font-family:"Krona One", sans-serif;
     font-size: 1.1em;
 }
+
+.sidebar-section{
+    display: flex;
+}
+.side-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: #00171F;
+    color: #9FC9BF;
+    overflow: hidden;
+    
+}
+.main-section {
+    width: 80%;
+    height: 100%;
+}
+.contact-us{
+    font-family: "Black Ops One", system-ui;
+    font-size: 80px;
+    font-weight: 800;
+    font-style:normal;
+    writing-mode: vertical-lr;
+    margin-left: 40px;
+    animation: 6s slide infinite linear;
+}
+@keyframes slide {
+    form{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+    
+}
+
+
+
+
+
