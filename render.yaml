@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: wonderlust
+    env: static
+    plan: free
+    buildCommand: npm install
+    runtime: node
+    publishPath: build
+    autoDeploy: false
+    branch: main
+    startCommand: node app.js
